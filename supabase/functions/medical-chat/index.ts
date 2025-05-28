@@ -1,0 +1,1 @@
+// Content from the provided medical-chat/index.ts file

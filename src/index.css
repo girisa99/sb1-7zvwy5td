@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  section {
+    @apply transition-opacity duration-300;
+  }
+  
+  .section-active {
+    @apply opacity-100;
+  }
+  
+  section:not(.section-active) {
+    @apply opacity-90;
+  }
+}
